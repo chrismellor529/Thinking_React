@@ -14,20 +14,35 @@
 }
 
 .App-header {
-  background-color: rgba(0, 21, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 30px;
 }
 
 .App-link {
   color: #61dafb;
 }
+.search-bar
+{
+  height: 96px;
+  margin-bottom: 30px;
 
+  input[type="text"]
+  {
+    width: 100%;
+    height: 56px;
+    font-size: 30px;
+    line-height: 1;
+  }
+}
+table {
+  text-align: left;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
