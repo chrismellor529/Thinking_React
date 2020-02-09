@@ -27,7 +27,7 @@ class FilterableProductTable extends React.Component{
         return (
             <div>
                 <Searchbar filterText={this.state.filterText} inStockOnly={this.state.inStockOnly} onFilterTextChange={this.handleFilterTextChange} onInStockChange={this.handleInStockChange}/>
-                <ProductTable products={this.props.products}filterText={this.state.filterText} inStockOnly={this.state.inStockOnly} />
+                <ProductTable products={this.props.products} filterText={this.state.filterText} inStockOnly={this.state.inStockOnly} />
             </div>
         );
     }

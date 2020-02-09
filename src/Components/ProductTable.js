@@ -15,7 +15,7 @@ class ProductTable extends React.Component{
                 return;
             }
             if(inStockOnly && !product.stocked){
-                return;;
+                return;
             }
 
             if(product.category !== lastCategory){
